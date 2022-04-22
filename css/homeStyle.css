@@ -1,34 +1,53 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 
 :root {
-    --primary-color: ;
-    --secondary-color: ;
-    --accent-color: ;
+    --primary-color: #6FFFE9;
+    --secondary-color: black;
+    --accent-color: #002BAC;
 
-    --heading-font: ;
-    --paragraph-font: ;
+    --heading-font: font-family: 'Playfair Display', serif;;
+    --paragraph-font: font-family: 'Merriweather', serif;;
 }
 body {
-    max-width: ;
+    max-width: 700px;
+    margin: 0 auto;
 }
 header {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     padding: 1.1em;
     text-align: center;
     background-color: var(--primary-color);
 }
 .profile img{
-    width: 75px;
+    width: auto;
     height: 100px;
     grid-column-start: 1;
     float: left;
-    padding: 15px;
+    padding: 10px;
     border: 1px solid white;
 }
 
-h1{
+h1 h2{
     font-family: var(--heading-font);
     font-size: 35px;
     color: var(--secondary-color);
+}
+
+footer{
+    padding: 1.1em;
+    text-align: center;
+    background-color: var(--primary-color);   
+}
+
+main{
+    text-align: left;
+    margin-left: 100px;
+}
+
+li{
+    margin: 7px;
+}
+
+.modified{
+    color: var(--accent-color);
 }
