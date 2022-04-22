@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+
 
 :root {
     --primary-color: #6FFFE9;
     --secondary-color: black;
     --accent-color: #002BAC;
 
-    --heading-font: font-family: 'Playfair Display', serif;;
-    --paragraph-font: font-family: 'Merriweather', serif;;
+    --heading-font: ;font-family: 'Playfair Display', serif;
+    --paragraph-font: ;font-family: 'Merriweather', serif;
 }
 body {
     max-width: 700px;
