@@ -4,9 +4,8 @@
     --primary-color: #6FFFE9;
     --secondary-color: black;
     --accent-color: #002BAC;
-
-    --heading-font: ;font-family: 'Playfair Display', serif;
-    --paragraph-font: ;font-family: 'Merriweather', serif;
+    --heading-font: font1 ;font-family: 'Playfair Display', serif;
+    --paragraph-font: font2 ;font-family: 'Merriweather', serif;
 }
 body {
     max-width: 700px;
